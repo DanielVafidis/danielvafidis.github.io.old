@@ -1,0 +1,40 @@
+header{
+    z-index:200;
+    min-height: 120vh;
+    background-color: rgb(61, 90, 254);
+    background-image: url("./img/mountain.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .dan{
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-transform: uppercase;
+        h1, h2{
+            color: white;
+            
+        }
+    }
+    .scrollDown{
+        display: flex;
+        justify-content: center;
+    }
+    .scrollTop{
+        img{
+            border-radius: 50%;
+            background-color: rgb(140, 158, 255);
+            padding: 10px;
+        }
+        
+        z-index:2000;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+
+}
