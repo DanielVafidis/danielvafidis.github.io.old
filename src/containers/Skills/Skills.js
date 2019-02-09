@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.scss';
 const Skills = () => {
-    return <section className="section skills">
+  return <section className="section skills" id="Skills">
         <div className="container is-narrow">
           <div className="box content has-text-centered">
             <h2>Front End Developer</h2>

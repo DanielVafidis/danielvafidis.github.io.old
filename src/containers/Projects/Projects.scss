@@ -1,4 +1,7 @@
 .projects{
     border-top: 10px solid rgb(61, 90, 254);
     min-height:100vh;
+    .container{
+        max-width: 992px;   
+    }
 }

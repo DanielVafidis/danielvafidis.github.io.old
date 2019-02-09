@@ -11,7 +11,7 @@ const Contact = () => {
                 <div className="field">
                   <label className="label">Name</label>
                   <div className="control is-expanded">
-                    <input className="input is-medium" name="name" type="text" required/>
+                    <input aria-label="name" className="input is-medium" name="name" type="text" required/>
                   </div>
                 </div>
               </div>
@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className="field">
                   <label className="label">Email</label>
                   <div className="control is-expanded">
-                    <input className="input is-medium" name="email" type="email" required/>
+                    <input aria-label="name" className="input is-medium" name="email" type="email" required/>
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@ const Contact = () => {
                 <div className="field">
                   <label className="label">Message</label>
                   <div className="control is-expanded">
-                    <textarea className="textarea is-large" name="message" rows="5" required/>
+                    <textarea aria-label="message" className="textarea is-large" name="message" rows="5" required/>
                   </div>
                 </div>
               </div>
